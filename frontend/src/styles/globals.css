@@ -707,3 +707,29 @@ body {
     width: 100%;
   }
 }
+
+.course-card-container {
+  position: relative;
+}
+
+.course-option {
+  padding: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: var(--transition);
+}
+
+.course-option:hover {
+  border-color: var(--primary);
+  background: #f8fafc;
+}
+
+.btn-error {
+  background: var(--error);
+  color: white;
+}
+
+.btn-error:hover {
+  background: #dc2626;
+}
