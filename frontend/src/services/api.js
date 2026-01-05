@@ -1,5 +1,5 @@
 // Simple API service
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://edu-portal0.onrender.com';
 
 // Helper function for API calls
 async function makeRequest(url, method = 'GET', data = null) {
